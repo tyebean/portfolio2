@@ -2,19 +2,17 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import TellMeAbtYrslf from './components/TellMeAbtYrslf';
+import ContactMe from './components/ContactMe.jsx';
 
 function App() {
   return (
     <>
-    
-    <Routes>
-      <Route path="/" element={<TellMeAbtYrslf />} />
-
-    </Routes>
-    <div className="App">
-      <h1>Hello World</h1>
-      
-    </div>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<TellMeAbtYrslf />} />
+          <Route path="/" element={<ContactMe />} />
+        </Routes>
+      </div>
     </>
   );
 }
