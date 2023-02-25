@@ -1,22 +1,20 @@
-
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import TellMeAbtYrslf from './components/TellMeAbtYrslf/TellMeAbtYrslf.jsx';
-import ContactMe from './components/ContactMe.jsx';
-import Skills from './components/Skills.jsx'
+
+import Main from './pages/Main.jsx';
+import ContactMe from './pages/ContactMe.jsx';
 
 function App() {
   return (
     <>
       <div className="App">
-        {<TellMeAbtYrslf />}
-        {<ContactMe />}
-        {<Skills />}
 
         <Routes>
-          <Route path="/" element={}/>
-          {/* <Route path="/contact" element={<ContactMe />} /> */}
+          <Route path="/" element={<Main />} />
+          <Route path="/contact" element={<ContactMe />} />
         </Routes>
+
+
       </div>
     </>
   );
