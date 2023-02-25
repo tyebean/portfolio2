@@ -1,7 +1,7 @@
 
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import TellMeAbtYrslf from './components/TellMeAbtYrslf';
+import TellMeAbtYrslf from './components/TellMeAbtYrslf/TellMeAbtYrslf.jsx';
 import ContactMe from './components/ContactMe.jsx';
 
 function App() {
