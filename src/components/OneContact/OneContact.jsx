@@ -1,13 +1,13 @@
+import './OneContact.css'
+
 const ContactMe = () => {
   return (
     <>
-    <p>There will be a box here with a perfect little perview of my social links!
-      <div>
-        <img src="" alt="" />
+      <div className='contact-div'>
+        <img src="/skills-svgs/1html.svg" alt="placeholder" />
         <h1>Title</h1>
         <p>A little description</p>
       </div>
-    </p>
     </>
   );
 }
